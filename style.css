@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background-color: rgb(0 0 0 / 38%);
+}
+.calculator {
+    background-color: rgba(0, 0, 0, 0.635);
+    padding:20px;
+    border-radius: 7.5px;
+}
+.calculator form input{
+    width : 54px;
+    height: 54px;
+    box-shadow: inset;
+    background-color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(230, 120, 18);
+    border-radius: 2px;
+    margin: 5px;
+    padding : 5px;
+}
+.display {
+    display: flex;
+    justify-content: flex-end;
+}
+.display input{
+    text-align: right;
+    flex: 1;
+}
+#AC{
+    color: rgba(0, 119, 255, 0.53);
+}
+#DE{
+    color: rgba(0, 119, 255, 0.53);
+}
+#dot{
+    color: rgba(0, 119, 255, 0.53);
+}
+#divide{
+    color: rgba(0, 119, 255, 0.53);
+}
+#prod{
+    color: rgba(0, 119, 255, 0.53);
+}
+#sub{
+    color: rgba(0, 119, 255, 0.53);
+}
+#add{
+    color: rgba(0, 119, 255, 0.53);
+}
+#equal{
+    color: rgba(0, 119, 255, 0.53);
+}
